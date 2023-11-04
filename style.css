@@ -1,7 +1,11 @@
+:root{
+    --gradient: linear-gradient(0deg, #00000066 30%, #ffffff44 100%)
+}
+
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(4, 200px);
-    grid-auto-rows: 200px;
+    grid-template-columns: repeat(4, 32vh);
+    grid-auto-rows: 32vh;
   }
 
 .description {
@@ -9,4 +13,28 @@
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 4;
+}
+
+.city {
+    width: 95%;
+    height: 95%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    background-size: contain;
+    text-align: center;
+    vertical-align: middle;
+    line-height: calc(32vh * 1.75);
+    color: #F6F4F3;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+}
+
+#Ljubljana {
+    background-image: var(--gradient),
+    url("./images/Ljubljana_made_by_Janez_Kotar.jpg");
+}
+
+#Zagreb {
+    background-image: var(--gradient),
+    url("./images/640px-Zagreb_\(29255640143\).jpg");
 }
