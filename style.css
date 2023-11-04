@@ -1,5 +1,5 @@
 :root{
-    --gradient: linear-gradient(0deg, #00000066 30%, #ffffff44 100%)
+    --gradient: linear-gradient(0deg, #00000066 30%, #ffffff22 100%)
 }
 
 .wrapper {
@@ -21,12 +21,17 @@
     margin-left: 2.5%;
     margin-top: 2.5%;
     background-size: contain;
-    text-align: center;
-    vertical-align: middle;
-    line-height: calc(32vh * 1.75);
     color: #F6F4F3;
     font-family: Roboto, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
+    position: relative;
+}
+
+.city span {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
 }
 
 #Ljubljana {
@@ -37,4 +42,39 @@
 #Zagreb {
     background-image: var(--gradient),
     url("./images/640px-Zagreb_\(29255640143\).jpg");
+}
+
+#Split {
+    background-image: var(--gradient),
+    url("./images/Split_080620-133710-IMG_0968x.jpg");
+}
+
+#Sarajevo {
+    background-image: var(--gradient),
+    url("./images/Sarajevo_City_Panorama.jpeg");
+}
+
+#Banja_Luka {
+    background-image: var(--gradient),
+    url("./images/Banja_luka.jpg");
+}
+
+#Belgrade {
+    background-image: var(--gradient),
+    url("./images/Belgrade_iz_balona.jpg");
+}
+
+#Novi_Sad {
+    background-image: var(--gradient),
+    url("./images/Danube_in_Novi_Sad_4.jpg");
+}
+
+#Podgorica {
+    background-image: var(--gradient),
+    url("./images/Titograd.jpg");
+}
+
+#Skopje {
+    background-image: var(--gradient),
+    url("./images/Stone_Bridge_Skopje_4.jpg");
 }
