@@ -20,8 +20,27 @@ body {
     grid-gap: 7.5px;
 }
 
-.wrapper .image {
-    background-color: lightblue;
+.wrapper * span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.wrapper * {
+    position: relative;
+}
+
+.wrapper * img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    mask-image: linear-gradient(0deg, #00000077 0%, #ffffffff 25%);
+    -webkit-mask-image: linear-gradient(0deg, #00000077 0%, #ffffffff 25%);
 }
 
 .wrapper .data {
@@ -30,6 +49,12 @@ body {
 
 .wrapper .break {
     background-color: lightgreen;
+}
+
+.wrapper * img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .wrapper div:nth-of-type(1) {
@@ -95,6 +120,22 @@ body {
 .wrapper div:nth-of-type(13) {
     grid-column: 33 / 41;
     grid-row: 21 / 41;
+}
+
+.wrapper div:nth-of-type(4) img {
+    object-position: 71%;
+}
+
+.wrapper div:nth-of-type(7) img {
+    object-position: 27%;
+}
+
+.wrapper div:nth-of-type(10) img {
+    object-position: 58%;
+}
+
+.wrapper div:nth-of-type(13) img {
+    object-position: 27%;
 }
 
 .info {
