@@ -1,0 +1,33 @@
+.flex-grid, html, body {
+    height: 100%;
+    margin: 0;
+}
+.flex-grid {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.flex-grid * {
+    border-color: red;
+    border-width: 1px;
+    border-style: solid;
+}
+.flex-grid .top-panel {
+    flex: 3;
+}
+.main {
+    flex: 46;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bottom-panel {
+    flex: 1;
+}
+.vertical-image {
+    flex: 4;
+}
+#horizontal-1 {
+    flex: 13;
+}
+
+
