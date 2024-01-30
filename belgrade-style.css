@@ -7,11 +7,6 @@
     flex-direction: column;
     flex-wrap: wrap;
 }
-.flex-grid * {
-    border-color: red;
-    border-width: 1px;
-    border-style: solid;
-}
 .flex-grid .top-panel {
     flex: 3;
 }
@@ -23,11 +18,11 @@
 .bottom-panel {
     flex: 1;
 }
-.vertical-image {
-    flex: 4;
-}
-#horizontal-1 {
-    flex: 13;
+.main img {
+    height: 0;
+    min-height: 100%;
+    width: 70%;
+    object-fit: cover;
 }
 
 
