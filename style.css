@@ -12,8 +12,7 @@ body {
 .wrapper {
     display: grid;
     grid-template-columns: repeat(60, 1fr);
-    grid-template-rows: repeat(40, 1fr);
-    aspect-ratio: 2 / 1;
+    grid-template-rows: repeat(32, 1fr);
     grid-gap: 7.5px;
 }
 
@@ -132,10 +131,8 @@ body {
 }
 
 .info {
-    height: 98vh;
-    width: 52.5vw;
     background-color:#F9DC5C;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
     font-family: 'Roboto', sans-serif;
     padding: 7.5px;
 }
